@@ -26,3 +26,13 @@ cat > "$name"/run.sh << EOF
 #!/bin/sh
 bug-clinic run index.js
 EOF
+
+# create package.json
+touch "$name"/package.json
+cat > "$name"/package.json << EOF
+{
+  "name": "$name",
+  "private": true,
+  "version": "1.0.0"
+}
+EOF
