@@ -1,0 +1,9 @@
+{
+  "name": "08_probe",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "jstrace": "^0.3.0",
+    "server-summary": "^3.3.1"
+  }
+}
